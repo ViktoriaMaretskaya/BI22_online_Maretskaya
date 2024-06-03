@@ -1,0 +1,21 @@
+--a) Извлечь все столбцы из таблицы Sales.SalesTerritory. 
+
+--Select *
+--from [Sales].[SalesTerritory]
+
+--b) Извлечь столбцы TerritoryID и Name из таблицы Sales.SalesTerritory.
+
+--Select TerritoryID, Name
+--from [Sales].[SalesTerritory]
+
+--c) Найдите все данные, которые существует для людей из Person.Person с LastName = ‘Norman’.
+
+--Select *
+--from [Person].[Person]
+--Where LastName = 'Norman'
+
+--d) Найдите все строки из Person.Person, где EmailPromotion не равен2. Пришлите все возможные решения.
+
+Select *
+from [Person].[Person]
+Where EmailPromotion != 2
